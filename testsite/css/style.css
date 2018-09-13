@@ -163,7 +163,7 @@ li.nav-item.active {
 /*-- //top-nav --*/
 .top-head.text-left {
     padding: 0.3em 1em;
-    background: #1b1e21;
+    background: #081A3B;
 }
 .right-p ul li {
     display: inline-block;
@@ -535,6 +535,18 @@ a.carousel-control-next.test, a.carousel-control-prev.test {
     background-size: cover;
     min-height: 250px;
 }
+
+.inner-page1{
+    background: url(../images/aboutus.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.inner-page2{
+    background: url(../images/partners.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 350px;
+}
 li.breadcrumb-item {
 	font-size: 0.9em;
 	letter-spacing: 3px;
@@ -905,7 +917,7 @@ color: #212020;
 
 /*-- footer --*/
 .footer {
-    background: #181818;
+    background: #081A3B;
 }
 .footer-grid-w3ls.links.text-left {
     margin: 0;
@@ -1058,7 +1070,7 @@ color: #212020;
     color: #00BCD4;
 }
 .copy_right {
-    background: #1f1e1e;
+    background: #081A49;
 }
 .footer-grid-w3ls ul.social li a span {
     color: #777;
@@ -1405,11 +1417,93 @@ color: #212020;
 
 /*--//responsive--*/
 .centered {
-    position: absolute;
+    /*position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 32px;
+    font-style: italic;*/
+
+        position: absolute;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     font-size: 32px;
     font-style: italic;
 }
+
+.centered1{
+	    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 32px;
+    font-style: italic
+}
+
+.headings{
+	    background-color: #222;
+    padding: 10px;
+    font-size: 30px;
+    color: #eee!important;
+    border-color: #666;
+    box-shadow: 0 1px #666, inset 0 1px #666;
+    font-weight: 600;
+    width: 320px;
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+	.headings{
+    background-color: #222;
+    padding: 10px;
+    font-size: 15px;
+    color: #eee!important;
+    border-color: #666;
+    box-shadow: 0 1px #666, inset 0 1px #666;
+    font-weight: 600;
+    width: 320px;
+    text-align: center;
+}
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) 
+{
+	.fikka
+	{
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    display: inline-table;
+    padding-left: 10%;
+ 
+}
+}
+
+@media screen and (min-width: 768px) {
+
+.fikka{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 32px;
+    font-style: italic;
+    display: inline-table;
+    padding-left: 10%;
+}
+}
+ 
+ 				
+
+
+ 
