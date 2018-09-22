@@ -128,7 +128,7 @@ a:hover {
   background-size: cover;
   padding: 120px 0 25px 0;
   position: relative;
-  background: #02bdd5;
+  background: #502260;
   color: #fff;
 }
 
@@ -219,6 +219,7 @@ a:hover {
 
 #top-bar .navbar-nav li a:hover {
   background: transparent;
+  color:#502260;
 }
 
 #top-bar.animated-header {
@@ -232,7 +233,7 @@ a:hover {
 }
 
 #top-bar .main-menu li a {
-  color: #444;
+  color: #E55E3F;
   font-size: 14px;
   font-weight: 500;
   border-bottom: 2px solid transparent;
@@ -329,7 +330,7 @@ a:hover {
 #hero-area h1 {
   font-size: 40px;
   line-height: 50px;
-  color: #333;
+  color: #E55E3F;
   font-weight: 700;
   margin-bottom: 15px;
   font-style: italic;
@@ -348,7 +349,7 @@ a:hover {
 }
 
 #hero-area .btn {
-  background: #414141;
+  background: #E55E3F;
   border: none;
   color: #fff;
   padding: 20px 35px;
@@ -362,7 +363,7 @@ a:hover {
 }
 
 #call-to-action {
-  background: #02bdd5;
+  background: #502260;
   background-size: cover;
   background-attachment: fixed;
   padding: 25px 0;
@@ -390,9 +391,9 @@ a:hover {
 }
 
 #call-to-action .block .btn-contact {
-  background: #fff;
+  background: #E55E3F;
   border: none;
-  color: #02bdd5;
+  color: #fff;
   padding: 16px 35px;
   margin-top: 20px;
   font-size: 12px;
@@ -447,15 +448,15 @@ a:hover {
 }
 
 .about-feature .about-feature-1 {
-  background: #02bdd5;
+  background: #502260;
 }
 
 .about-feature .about-feature-2 {
-  background: #00B0C7;
+  background: #502260;
 }
 
 .about-feature .about-feature-3 {
-  background: #00A6BB;
+  background: #502260;
 }
 
 .works {
@@ -594,7 +595,7 @@ figure figcaption h4 {
 }
 
 figure figcaption h4 a {
-  color: #02bdd5;
+  color: #502260;
 }
 
 figure figcaption p {
@@ -832,7 +833,7 @@ article {
 #contact-section .contact-form .btn-send {
   color: #fff;
   outline: none;
-  background: #02bdd5;
+  background: #E55E3F;
 }
 
 #contact-section .contact-form .btn-send:hover {
@@ -1215,7 +1216,7 @@ article {
 }
 
 .team-member h3 {
-  color: #02bdd5;
+  color: #E55E3F;
   margin-bottom: 0;
   font-size: 20px;
 }
@@ -1225,11 +1226,12 @@ article {
 }
 
 .team-member .social-icons a {
-  background: #02bdd5;
+  background: #fff;
   color: #fff;
   padding: 4px 8px;
   display: inline-block;
   font-size: 15px;
+  display: none;
 }
 
 .team-member .social-icons .facebook {
@@ -1248,7 +1250,7 @@ article {
 }
 
 #footer .copyright a {
-  color: #02bdd5;
+  color: #E55E3F;
 }
 
 #footer .social {
@@ -1267,7 +1269,7 @@ article {
 }
 
 .cd-headline.slide .cd-words-wrapper {
-  color: #02bdd5;
+  color: #502260;
 }
 
 ul.social-icons {
