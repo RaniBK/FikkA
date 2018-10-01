@@ -65,12 +65,26 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li>
+                          <!--   <li>
                                 <a href="index.html" >Home</a>
+                            </li> -->
+                          <!--   <li><a href="about.html">Company</a></li> -->
+                             <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="about.html">About FikkA</a></li>
+                                        <li><a href="about.html#fikka">Why Us</a></li>
+                                        <li><a href="about.html#team">Team FikkA</a></li>
+                                        <li><a href="gallery.html"> Life @ FikkA</a></li>
+
+                                    </ul>
+                                </div>
                             </li>
-                            <li><a href="about.html">Company</a></li>
+                            <li><a href="findwork.html">Find Work</a></li>
+                            <li><a href="findtalent.html ">Find Talent</a></li>
                             <!-- <li><a href="service.html">Service</a></li> -->
-                            <li class="dropdown">
+                           <!--  <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
                                 <div class="dropdown-menu">
                                     <ul>
@@ -78,19 +92,18 @@
                                         <li><a href="#">Talent Aquisition</a></li>
                                     </ul>
                                 </div>
-                            </li>
-                             <li><a href="gallery.html">Gallery</a></li>
-                           <!--  <li class="dropdown">
+                            </li> -->
+                            <!--  <li><a href="">Gallery</a></li> -->
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
                                 <div class="dropdown-menu">
                                     <ul>
-                                        <li><a href="blog-fullwidth.html">Blog Full</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right sidebar</a></li>
+                                        <li><a href="#">Visit FikkA Blog</a></li>
+                                        
                                     </ul>
                                 </div>
-                            </li> -->
-                            <li><a href="contact.html">Contact</a></li>
+                            </li>
+                            <li><a href="contact.html">Find Us</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -107,7 +120,7 @@ Slider Section Start
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
-            <div class="block wow fadeInUp" data-wow-delay=".3s">
+            <div class="block wow fadeInUp" style="float:right;" data-wow-delay=".3s">
                 <!-- Slider -->
                 <section class="cd-intro">
                     <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
@@ -119,11 +132,17 @@ Slider Section Start
                     </span>
                     </h1>
                     </section> <!-- cd-intro -->
+
+
                     <!-- /.slider -->
-                    <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
+                    <h2 class="wow fadeInUp animated" data-wow-delay=".6s" style="color:#fff!important; font-weight:800;">
                         FikkA is a curated marketplace that connects companies <br> and candidates (via multiple Recruitment Partners).
                     </h2>
+                    <div class="row">
+                    
                     <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works">Our Services</a>
+                    
+                </div>
                 </div>
             </div>
         </div>
@@ -137,27 +156,26 @@ About Section Start
 <section id="about">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <h2>
-                    About Fikka
+            <div class="col-md-12 col-sm-12">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms" style="text-align:center;">
+                    <h2 style="text-align:center;">
+                    FikkA: conversations over coffee
                     </h2>
                     <p>
-                        The FikkA platform gets you better candidates with a faster TAT (Turn Around Time).Via a single FikkA interface, companies can pick the best candidates either from their existing partners or by an expanded ecosystem of FikkA’s curated list of partners (known for their expertise in sourcing candidates with particular skills, experience and from specific industries).
+                       FikkA Jobs strongly believe in socializing to establish a connect between the company and the candidates so that they can step-into the shoes of either and relate to the end goals meeting the satisfaction levels.
                     </p>
                     <p>
-                        We also support you through the interviewing and closure cycle.
-
-                        The back-end parsing and machine learning algorithms understand your requirements better over time. Since the “human touch” is equally important in getting suitable candidates, it is also part of the workflow.
-                    </p>
+                        FikkA Jobs assist companies in finding the best talent for their teams by using various algorithms to source the profiles and meet niche requirements effectively.The back-end parsing and machine learning algorithms understand the requirements better over time. Since the “human touch” is equally important in getting suitable candidates, it is also part of the workflow at FikkA.
+                   </p>
+            
                 </div>
                 
             </div>
-            <div class="col-md-6 col-sm-6">
+<!--             <div class="col-md-6 col-sm-6">
                 <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
                     <img src="images/about/about.jpg" alt="">
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section> <!-- /#about -->
@@ -172,11 +190,12 @@ Portfolio Section Start
         <div class="section-heading">
             <h1 class="title wow fadeInDown" data-wow-delay=".3s">Our Services</h1>
             <p class="wow fadeInDown" data-wow-delay=".5s">
-                FikkA is a curated marketplace that connects companies and candidates (via multiple Recruitment Partners). A machine learning algorithm at the backend <br> that does the heavy lifting – improving the efficiency of matching, so that recruiters can focus on engaging with the selected candidates.
+               FikkA specializes in providing staffing resources for contract and contract-to-hire information technology professionals. Recruiters at FikkA collaborate closely with the hiring managers <br> to understand the demands of the industry and then identifying the best talent using the intelligent algorithms devised to match the most relevant profiles.
+
             </p>
         </div>
         <div class="row">
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-sm-3 col-xs-12">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
                     <div class="img-wrapper">
                         <img src="images/portfolio/item-1.jpg" class="img-responsive" alt="this is a title" >
@@ -190,16 +209,16 @@ Portfolio Section Start
                     <figcaption>
                     <h4>
                     <a href="#">
-                        HR Services
+                        Executive Search
                     </a>
                     </h4>
-<!--                     <p>
-                        Redesigne UI Concept
-                    </p> -->
+                    <p style="height:110px;">
+                        Identifying the next gen of leaders who are capable of devising strategies for the success of the company.
+                    </p>
                     </figcaption>
                 </figure>
             </div>
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-sm-3 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="img-wrapper">
                         <img src="images/portfolio/item-2.jpg" class="img-responsive" alt="this is a title" >
@@ -213,16 +232,16 @@ Portfolio Section Start
                     <figcaption>
                     <h4>
                     <a href="#">
-                        Talent Aquisition
+                        Talent Acquisition
                     </a>
                     </h4>
-<!--                     <p>
-                        Lorem ipsum dolor sit.
-                    </p> -->
+                    <p>
+                        Finding the dream job or building a better team is all covered by FikkA in the least possible efforts invested by using the intelligent platform.
+                    </p>
                     </figcaption>
                 </figure>
             </div>
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-sm-3 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="img-wrapper">
                         <img src="images/portfolio/item-3.jpg" class="img-responsive" alt="" >
@@ -236,13 +255,36 @@ Portfolio Section Start
                     <figcaption>
                     <h4>
                     <a href="#">
-                        Candidates
+                       Interview Assistance
                     </a>
                     </h4>
-<!--                     <p>
-                        Lorem ipsum dolor sit amet.
+                    <p style="height:110px;">
+                         FikkA jobs handholds throughout the full journey of profile selection to joining through is articulate interview assistance process
                     </p>
- -->                    </figcaption>
+                    </figcaption>
+                </figure>
+            </div>
+               <div class="col-sm-3 col-xs-12">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-3.jpg" class="img-responsive" alt="" >
+                        <div class="overlay">
+                            <div class="buttons">
+                               <!--  <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a> -->
+                                <a target="" href="#">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                    <h4>
+                    <a href="#">
+                       Implanting Recruitment team
+                    </a>
+                    </h4>
+                    <p>
+ Recruiters support the new organizations or SMEs in building their dream teams by blending into their system and helping in recruitment
+                    </p>
+                    </figcaption>
                 </figure>
             </div>
             <!-- <div class="col-sm-4 col-xs-12">
@@ -418,6 +460,65 @@ Portfolio Section Start
 </section> <!-- /#feature -->
 
 
+ <section id="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">Our Clients</h2>
+                       <!--  <p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.</p> -->
+                        <div id="clients-logo" class="owl-carousel">
+                            <div>
+                                <img src="images/clients/logo-1.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="images/clients/logo-2.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="images/clients/logo-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="images/clients/logo-4.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="images/clients/logo-5.jpg" alt="">
+                            </div>
+                             <div>
+                                <img src="images/clients/logo-1.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="images/clients/logo-2.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="images/clients/logo-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="images/clients/logo-4.jpg" alt="">
+                            </div>
+                            <div>
+                                <img src="images/clients/logo-5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+  <section id="call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block">
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Our Client Speaks</h1>
+                               <!--  <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p> -->
+ 
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
             <!--
             ==================================================
             Call To Action Section Start
@@ -427,9 +528,9 @@ Portfolio Section Start
                     <div class="row">
                         <div class="col-md-12">
                             <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Any Queries ?</h1>
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Testimonials Should be added Here</h1>
                                <!--  <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p> -->
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Fikka</a>
+
                             </div>
                         </div>
                         
@@ -443,13 +544,24 @@ Portfolio Section Start
             ================================================== -->
             <footer id="footer">
                 <div class="container">
-                    <div class="col-md-8">
-                        <p class="copyright">Copyright: <span><script>document.write(new Date().getFullYear())</script></span> Design and Developed by <a href="http://www.Themefisher.com" target="_blank">IRCA India</a>. <br> 
-                           
-                        </p>
+                    <div class="col-md-4">
+                         <h5> Find Talent </h5>
+                        <li> Executive Search</li>
+                        <li> Lateral Hiring & Fresher Hiring  </li>
+                        <li> Interview Assistance  & Recruitment Implantation</li>
+                        
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <h5> Find Work </h5>
+                        <li> Open Jobs </li>
+                        <li> Careers </li>
+                       
                     </div>
                     <div class="col-md-4">
                         <!-- Social Media -->
+
                         <ul class="social">
                             <li>
                                 <a href="#" class="Facebook">
@@ -472,6 +584,9 @@ Portfolio Section Start
                                 </a>
                             </li>
                         </ul>
+                         <p class="copyright">Copyright: <span><script>document.write(new Date().getFullYear())</script></span> Design and Developed by <a href="http://www.ircaindia.com" target="_blank">IRCA India</a>. <br> 
+                           
+                        </p>
                     </div>
                 </div>
             </footer> <!-- /#footer -->
