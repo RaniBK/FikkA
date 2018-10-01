@@ -38,7 +38,8 @@ xslide
 .cd-headline.slide .cd-words-wrapper {
   overflow: hidden;
   vertical-align: top;
-  width: auto!important;
+  text-align: center;
+  /*width: auto!important;*/
 }
 .cd-headline.slide b {
   opacity: 0;
