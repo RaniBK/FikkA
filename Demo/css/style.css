@@ -44,7 +44,7 @@ a:hover {
 .section-heading p {
   font-size: 14px;
   font-weight: 300;
-  color: #727272;
+  color: black;
   line-height: 20px;
 }
 
@@ -314,7 +314,7 @@ a:hover {
 #hero-area:before {
   content: '';
   z-index: 9;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.18);
   position: absolute;
   top: 0;
   left: 0;
@@ -422,7 +422,7 @@ a:hover {
 }
 
 #about .block p {
-  color: #727272;
+  color: black;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 35px;
@@ -602,6 +602,7 @@ figure figcaption p {
   font-size: 14px;
   margin-bottom: 0;
   margin-top: 5px;
+  color:black;
 }
 
 #feature {
@@ -629,7 +630,7 @@ figure figcaption p {
 #feature p {
   line-height: 25px;
   font-size: 14px;
-  color: #777777;
+  color: black;
 }
 
 #feature .icon {
@@ -1247,10 +1248,12 @@ article {
 #footer .copyright {
   font-size: 13px;
   margin-bottom: 0;
+  color: black;
+    text-align: right;
 }
 
 #footer .copyright a {
-  color: #E55E3F;
+  color: black;
 }
 
 #footer .social {
