@@ -33,6 +33,9 @@
         <link rel="stylesheet" href="plugins/facncybox/jquery.fancybox.css">
         <!-- template main css file -->
         <link rel="stylesheet" href="css/style.css">
+		 <link href="css/tinyslide.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js" /></script>
+    <script src="js/tinyslide.js" /></script>
     </head>
     <body>
 
@@ -94,7 +97,7 @@
                                 </div>
                             </li> -->
                             <!--  <li><a href="">Gallery</a></li> -->
-                            <li class="dropdown">
+                           <!--  <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
                                 <div class="dropdown-menu">
                                     <ul>
@@ -102,8 +105,28 @@
                                         
                                     </ul>
                                 </div>
-                            </li>
+                            </li> -->
                             <li><a href="contact.html">Find Us</a></li>
+                            <li>
+                             <ul class="social" style="margin-top:15px;    padding-left: 40px;">
+                         
+                                <a href="#"  style="padding-right:10px;" class="Facebook">
+                                    <i class="ion-social-facebook"></i>
+                                </a>
+                            
+                                <a href="#" style="padding-right:10px;" class="Twitter">
+                                    <i class="ion-social-twitter"></i>
+                                </a>
+                           
+                                <a href="#" style="padding-right:10px;" class="Linkedin">
+                                    <i class="ion-social-linkedin"></i>
+                                </a>
+                            
+                                <a href="#" class="Google Plus">
+                                    <i class="ion-social-googleplus"></i>
+                                </a>
+                            
+                        </ul></li>
                         </ul>
                     </div>
                 </nav>
@@ -116,42 +139,56 @@
 ==================================================
 Slider Section Start
 ================================================== -->
-<section id="hero-area" >
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <div class="block wow fadeInUp" style="float:right;" data-wow-delay=".3s">
-                <!-- Slider -->
-               <section class="cd-intro">
-                    <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
-                    <span>Fikka Helps Get Better Candidates Faster</span><br>
-                    <span class="cd-words-wrapper">
-                        <b class="is-visible">HR practice</b>
-                        <b>Talent Aquistion</b>
-                        <b>Jobs</b>
-                    </span>
-                    </h1>
-                    </section> <!-- cd-intro --> 
+  <section id="tiny" class="tinyslide">
+      <aside class="slides">
+        <figure>
+          <img src="images/new-work.jpeg" alt="" />
+          <figcaption>
+           FikkA help organizations to hire the <br> right talent through 
+           it’s intelligent platform. <br>
+           <a href="findtalent.html"><button style="background: #E55E3F;
+    border: none;
+    color: #fff;
+    padding: 20px 35px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-size: 13px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    border-radius: 0;">Find Talent</button></a>
+          
+
+           </figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/new-talent .jpeg" alt="" />
+          <figcaption>
+           FikkA help candidates to reach the prospective <br> organizations through
+it’s assisted Interview process.
+<br>
+         <a href="findwork.html">   <button style="background: #E55E3F;
+    border: none;
+    color: #fff;
+    padding: 20px 35px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-size: 13px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    border-radius: 0;">Find Work</button></a>
+          </figcaption>
+        </figure>
+       
+      </aside>
+    </section>
+    <script>
+      var tiny = $('#tiny').tiny().data('api_tiny');
+    </script>
 
 
-                    <!-- /.slider -->
-                    <h2 class="wow fadeInUp animated" data-wow-delay=".6s" style="color:white!important; font-weight:800;">
-                      ‘FikkA help organizations to hire the right talent through <br>it’s intelligent platform’ - Build your dream team
-                    </h2>
-		    
-		     <h2 class="wow fadeInUp animated" data-wow-delay=".6s" style="color:white!important; font-weight:800;">
-                      ‘FikkA help candidates to reach the prospective organizations through <br> it’s assisted Interview process’ - Get a dream job
-                    </h2>
-                    <div class="row">
-                    
-                    <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works">Our Services</a>
-                    
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!--/#main-slider-->
 
 <!--
 ==================================================
@@ -162,14 +199,14 @@ About Section Start
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms" style="text-align:center;">
-                    <h2 style="text-align:center;">
-                    FikkA: conversations over coffee
-                    </h2>
+                  
+                    <h1 class="title wow fadeInDown" data-wow-delay=".3s"> FikkA: conversations over coffee</h1>
                     <p>
                        FikkA Jobs strongly believe in socializing to establish a connect between the company and the candidates so that they can step-into the shoes of either and relate to the end goals meeting the satisfaction levels.
                     </p>
                     <p>
-                        FikkA Jobs assist companies in finding the best talent for their teams by using various algorithms to source the profiles and meet niche requirements effectively.The back-end parsing and machine learning algorithms understand the requirements better over time. Since the “human touch” is equally important in getting suitable candidates, it is also part of the workflow at FikkA.
+                        FikkA Jobs assist companies in finding the best talent for their teams by using various algorithms to source the profiles and meet niche requirements effectively.</p>
+                        <p>The back-end parsing and machine learning algorithms understand the requirements better over time. Since the “human touch” is equally important in getting suitable candidates, it is also part of the workflow at FikkA.
                    </p>
             
                 </div>
@@ -201,14 +238,9 @@ Portfolio Section Start
         <div class="row">
             <div class="col-sm-3 col-xs-12">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-1.jpg" class="img-responsive" alt="this is a title" >
-                        <div class="overlay">
-                            <div class="buttons">
-                              <!--   <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a> -->
-                                <a target="" href="#">Details</a>
-                            </div>
-                        </div>
+                    <div class="img-wrapper" style="height:219px;width:263px;padding:35px;">
+                        <img src="images/portfolio/execucutive-search.png" class="img-responsive" alt="this is a title" >
+                        
                     </div>
                     <figcaption>
                     <h4>
@@ -224,14 +256,9 @@ Portfolio Section Start
             </div>
             <div class="col-sm-3 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-2.jpg" class="img-responsive" alt="this is a title" >
-                        <div class="overlay">
-                            <div class="buttons">
-                              <!--   <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a> -->
-                                <a target="" href="#">Details</a>
-                            </div>
-                        </div>
+                    <div class="img-wrapper" style="height:219px;width:263px;padding:35px;">
+                        <img src="images/portfolio/Talent-Acq.png" class="img-responsive" alt="this is a title" >
+                       
                     </div>
                     <figcaption>
                     <h4>
@@ -247,14 +274,9 @@ Portfolio Section Start
             </div>
             <div class="col-sm-3 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-3.jpg" class="img-responsive" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                               <!--  <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a> -->
-                                <a target="" href="#">Details</a>
-                            </div>
-                        </div>
+                    <div class="img-wrapper" style="height:219px;width:263px;padding:35px;">
+                        <img src="images/portfolio/interview-assis.png" class="img-responsive" alt="" >
+                       
                     </div>
                     <figcaption>
                     <h4>
@@ -270,14 +292,9 @@ Portfolio Section Start
             </div>
                <div class="col-sm-3 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-3.jpg" class="img-responsive" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                               <!--  <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a> -->
-                                <a target="" href="#">Details</a>
-                            </div>
-                        </div>
+                    <div class="img-wrapper" style="height:219px;width:263px;padding:35px;">
+                        <img src="images/portfolio/IR.png" class="img-responsive" alt="" >
+                        
                     </div>
                     <figcaption>
                     <h4>
@@ -291,6 +308,8 @@ Portfolio Section Start
                     </figcaption>
                 </figure>
             </div>
+			<div class="row" style="text-align:center;">
+			<a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green animated" data-wow-delay=".9s" href="#works" data-section="#works" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;">View Details</a></div>
             <!-- <div class="col-sm-4 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
                     <div class="img-wrapper">
@@ -468,23 +487,25 @@ Portfolio Section Start
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">Our Clients</h2>
+                        <div class="section-heading">
+                      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Our Clients</h1>
+                  </div>
                        <!--  <p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.</p> -->
                         <div id="clients-logo" class="owl-carousel">
                             <div>
-                                <img src="images/clients/logo-1.jpg" alt="">
+                                <img src="images/clients/CTD.png" alt="">
                             </div>
                             <div>
-                                <img src="images/clients/logo-2.jpg" alt="">
+                                <img src="images/clients/irca.png" alt="">
                             </div>
                             <div>
-                                <img src="images/clients/logo-3.jpg" alt="">
+                                <img src="images/clients/Demansol.png" alt="">
                             </div>
                             <div>
-                                <img src="images/clients/logo-4.jpg" alt="">
+                                <img src="images/clients/DSPG.png" alt="">
                             </div>
-                            <div>
-                                <img src="images/clients/logo-5.jpg" alt="">
+                          <!--   <div>
+                                <img src="images/clients/rangson.png" alt="">
                             </div>
                              <div>
                                 <img src="images/clients/logo-1.jpg" alt="">
@@ -500,7 +521,7 @@ Portfolio Section Start
                             </div>
                             <div>
                                 <img src="images/clients/logo-5.jpg" alt="">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -508,90 +529,30 @@ Portfolio Section Start
         </section>
 
 
-  <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Our Client Speaks</h1>
-                               <!--  <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p> -->
- 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </section>
-
-            <!--
-            ==================================================
-            Call To Action Section Start
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Testimonials Should be added Here</h1>
-                               <!--  <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p> -->
-
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </section>
+ <section id="works" class="works">
+    <div class="container">
+        <div class="section-heading">
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Our Client Speaks</h1>
+           
+        </div>
+        <div class="row">
+           
+    </div>
+</section> <!-- #works -->
 
             <!--
             ==================================================
             Footer Section Start
             ================================================== -->
-            <footer id="footer">
+            <!--  --> <!-- /#footer -->
+               <footer id="footer">
                 <div class="container">
-                    <div class="col-md-4">
-                         <h5> Find Talent </h5>
-                        <li> Executive Search</li>
-                        <li> Lateral Hiring & Fresher Hiring  </li>
-                        <li> Interview Assistance  & Recruitment Implantation</li>
-                        
-
-                    </div>
-
-                    <div class="col-md-4">
-                        <h5> Find Work </h5>
-                        <li> Open Jobs </li>
-                        <li> Careers </li>
-                       
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Social Media -->
-
-                        <ul class="social">
-                            <li>
-                                <a href="#" class="Facebook">
-                                    <i class="ion-social-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Twitter">
-                                    <i class="ion-social-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Linkedin">
-                                    <i class="ion-social-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Google Plus">
-                                    <i class="ion-social-googleplus"></i>
-                                </a>
-                            </li>
-                        </ul>
-                         <p class="copyright">Copyright: <span><script>document.write(new Date().getFullYear())</script></span> Design and Developed by <a href="http://www.ircaindia.com" target="_blank">IRCA India</a>. <br> 
+                    <div class="col-md-8">
+                        <p class="copyright">Copyright: <span><script>document.write(new Date().getFullYear())</script></span> Design and Developed by <a href="http://www.Themefisher.com" target="_blank">IRCA India</a>. <br> 
                            
                         </p>
                     </div>
+                   
                 </div>
             </footer> <!-- /#footer -->
 
