@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -14,7 +15,8 @@ h2 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "raleway";
+      letter-spacing: 0.5px;
   line-height: 22px;
   font-size: 16px;
   font-weight: 300;
@@ -126,9 +128,9 @@ a:hover {
 .global-page-header {
   background-attachment: fixed;
   background-size: cover;
-  padding: 120px 0 25px 0;
+  padding: 30px 0 25px 0;
   position: relative;
-  background: #502260;
+  /*background: #502260;*/
   color: #fff;
 }
 
@@ -164,7 +166,7 @@ a:hover {
 }
 
 .company-description {
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
 .company-description .block h3 {
@@ -172,8 +174,11 @@ a:hover {
 }
 
 .company-description .block p {
-  color: #727272;
+  /*color: #727272;*/
+  color:black;
 }
+
+
 
 /*=== MEDIA QUERY ===*/
 .navbar-default .navbar-nav li a:hover {
@@ -212,9 +217,10 @@ a:hover {
   background: #fff;
   color: #fff;
   transition: all 0.2s ease-out 0s;
-  padding: 15px 0;
+  
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #dedede;
+  padding-bottom: 5px;
 }
 
 #top-bar .navbar-nav li a:hover {
@@ -223,7 +229,7 @@ a:hover {
 }
 
 #top-bar.animated-header {
-  padding: 20px 0;
+  
   background: #fff;
   box-shadow: none;
 }
@@ -449,15 +455,21 @@ a:hover {
 }
 
 .about-feature .about-feature-1 {
-  background: #502260;
+ background: beige;
+    text-align: center;
+    list-style: none;
 }
 
 .about-feature .about-feature-2 {
-  background: #502260;
+ background: beige;
+    text-align: center;
+    list-style: none;
 }
 
 .about-feature .about-feature-3 {
-  background: #502260;
+  background: beige;
+    text-align: center;
+    list-style: none;
 }
 
 .works {
@@ -523,16 +535,16 @@ figure .img-wrapper {
 }
 
 figure img {
-  -webkit-transform: scale3d(1, 1, 1);
+  /*-webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
   transition: -webkit-transform 400ms;
   transition: transform 400ms;
-  transition: transform 400ms, -webkit-transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;*/
 }
 
 figure:hover img {
-  -webkit-transform: scale3d(1.2, 1.2, 1);
-  transform: scale3d(1.2, 1.2, 1);
+ /* -webkit-transform: scale3d(1.2, 1.2, 1);
+  transform: scale3d(1.2, 1.2, 1);*/
 }
 
 figure:hover .overlay {
@@ -1211,6 +1223,7 @@ article {
 
 .team-member .team-img .team-pic {
   width: 100%;
+  border-radius: 100%;
 }
 
 .team-member .team_designation {
