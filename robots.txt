@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://fikka.jobs/sitemap.xml
