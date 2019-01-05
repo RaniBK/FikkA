@@ -1456,3 +1456,16 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 /*# sourceMappingURL=maps/style.css.map */
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+color: white !important;
+background-color: #e55e3f;
+border: none !important;
+}
+.nav-tabs>li {
+    background: #502260;
+    color: white;	
+}
+.nav-tabs>li>a {
+    color: white;
+}
