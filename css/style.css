@@ -1469,3 +1469,10 @@ border: none !important;
 .nav-tabs>li>a {
     color: white;
 }
+.nav-tabs>li>a:hover {
+    background-color: transparent !important;	
+}
+.nav-tabs>li>a:hover {
+    border-color: #eee #eee #ddd;
+	border: none !important;
+}
